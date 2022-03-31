@@ -31,6 +31,6 @@ int main()
 		if (maxi==tab[i])
 			ile++;
 	}
-	printf("Najwiekszy: %d, ilosc wystapienia %d ", najwiekszy, ile);
+	printf("Najwiekszy: %d, ilosc wystapienia %d ", maxi, ile);
 
 return 0;
