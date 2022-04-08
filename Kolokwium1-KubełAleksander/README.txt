@@ -1,0 +1,1 @@
+Aleksander Kube³,gr.2,08-04-2022,kolokwium1
