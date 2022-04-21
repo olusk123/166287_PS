@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650558396 source:c:\users\oluœk\documents\github\166287_ps\lab8\5.2.5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
