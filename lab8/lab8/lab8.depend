@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650620067 source:c:\users\local\documents\github\166287_ps\lab8\lab8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
