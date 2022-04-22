@@ -10,8 +10,6 @@ int tablica(int t[][100], int n)
             suma+=t[i][j];
     return suma;
 }
-size_t strlen(const char*s);
-char *strcpy(char*t, const char*s);
 
 size_t strlen(const char*s)
 {
@@ -33,9 +31,9 @@ char*strcpy(char *t,const char *s)
 int main(void)
 {
 
-    char *s = "Oto rzek³ Mistrz Programista:\n\n\
+    char *s = "Oto rzekl Mistrz Programista:\n\n\
     \"Po trzech dniach bez programowania, \
-    ¿ycie staje siê pozbawione sensu.\"\n";
+    zycie staje sie pozbawione sensu.\"\n";
     char *p = calloc(strlen(s) + 1, sizeof(char));
     strcpy(p, s);
     printf("%s\n", p);
