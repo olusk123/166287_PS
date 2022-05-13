@@ -1,0 +1,21 @@
+#zad1
+def func_1(n):
+    if(n==1 or n==0):
+        return 1
+    else:
+        return n*func_1(n-1)
+def f(n,k):
+    return func_1(n)/func_1(n-k)
+
+print(f(10,4))
+
+#zad2
+
+str0="I study at the University of Warmia and Mazury"
+print(str0[::4])
+
+#zad3
+
+lista=['monkey','cat','donkey','frog','dog','giraffe','penguin','dolphin','lion']
+l=([x for x in lista if x > 5])
+print(l)
