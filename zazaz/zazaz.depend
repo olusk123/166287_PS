@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1652434690 source:c:\users\local\documents\github\166287_ps\zazaz\linesegment.c
+	"LineSegment.h"
+
+1652434665 c:\users\local\documents\github\166287_ps\zazaz\linesegment.h
+	"point.h"
+
+1652434605 c:\users\local\documents\github\166287_ps\zazaz\point.h
+
