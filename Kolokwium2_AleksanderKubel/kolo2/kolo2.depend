@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1653647410 source:c:\users\local\documents\github\166287_ps\kolo2\kolo2\nauczyciel.c
+	<stdio.h>
+	<string.h>
+	"nauczyciel.h"
+
+1653645576 c:\users\local\documents\github\166287_ps\kolo2\kolo2\nauczyciel.h
+	<stdbool.h>
+
+1653647221 source:c:\users\local\documents\github\166287_ps\kolo2\kolo2\main.c
+	<stdio.h>
+	"nauczyciel.h"
+	<string.h>
+
