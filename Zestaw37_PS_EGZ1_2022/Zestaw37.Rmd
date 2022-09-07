@@ -1,0 +1,58 @@
+---
+title: |
+    | Egzamin (pierwszy termin 2022) - Programowanie strukturalne
+    | - Zestaw 37
+lang: pl
+output:
+  pdf_document: default
+---
+
+*Zadanie 1: 10 pkt. Zadanie 2: 12 pkt. Zadanie 3: 13 pkt. Zadanie 4: 15 pkt.* 
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*  
+
+
+Zad.1. Dane są następujące wyrazy i znaki:
+
+```
+int double double const * foo a b ( ) , *
+```
+
+Ułóż je we właściwej kolejności, aby otrzymać nagłówek funkcji `foo`, której argumentami są kolejno wskaźnik na stałą wartość typu `int` oraz liczba wymierna. Następnie dodaj dowolną implementację funkcji i stwórz dla niej przypadek testowy. 
+
+
+Zad.2. Napisz funkcję, której argumentami jest napis i znak. Funkcja zwraca adres ostatniej pozycji znaku w danym napisie lub `NULL` jeśli przekazany znak nie występuje w napisie. W zadaniu nie można korzystać z funkcji bibliotecznych poza instrukcjami wejścia/wyjścia. Stwórz przypadek testowy.
+
+Zad.3. Napisz funkcję, której argumentem jest dwuwymiarowa tablica elementów i jej wymiary $n$ i $m$ ($n,m>0$). Funkcja ma zwrócić 1 jeśli tablica jest trójkątna dolna oraz 0 w przeciwnym wypadku. Stwórz przypadek testowy.
+
+Tablica jest trójkątna dolna, jeśli liczba wierszy i kolumn jest sobie równa ($n=m$) oraz wszystkie elementy powyżej głównej przekątnej są równe zero.
+
+Przykłady: 
+
+* $\begin{bmatrix}
+1 & 0 & 0\\
+-3 & 5 & 0 \\
+44 & 2 & -2 
+\end{bmatrix}$ jest trójkątna dolna.
+
+* $\begin{bmatrix}
+1 & 2 & 3\\
+0 & 5 & 8 
+\end{bmatrix}$ nie jest trójkątna dolna bo nie jest kwadratowa.
+
+* $\begin{bmatrix}
+1 & 2 & 3\\
+0 & 0 & 0 \\
+9 & 8 & -2 
+\end{bmatrix}$ nie jest trójkątna dolna, bo powyżej głównej przekątnej nie są same zera.
+
+Zad.4. Napisz funkcję, która przyjmuje jako argumenty dwie listy: pierwszą bez głowy, drugą z głową, o elementach typu:
+
+```c
+struct elem {
+    int i;
+    struct elem * next;
+};
+```
+
+Funkcja ma usunąć z pierwszej listy te elementy, których wartości występują na drugiej liście. Stwórz przypadek testowy.
