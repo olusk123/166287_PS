@@ -1,0 +1,65 @@
+---
+title: |
+    | Egzamin (pierwszy termin 2022) - Programowanie strukturalne
+    | - Zestaw 15
+lang: pl
+output:
+  pdf_document: default
+---
+
+*Zadanie 1: 10 pkt. Zadanie 2: 12 pkt. Zadanie 3: 13 pkt. Zadanie 4: 15 pkt.* 
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*  
+
+
+Zad.1. Dane są następujące wyrazy i znaki:
+
+```
+int int char fun tab n ( ) [ [ ] ] , * 3 3
+```
+
+Ułóż je we właściwej kolejności, aby otrzymać nagłówek funkcji `fun`, której argumentami są tablica wymiaru 3x3 oraz napis. Następnie dodaj dowolną implementację funkcji i stwórz dla niej przypadek testowy. 
+
+
+Zad.2. Napisz program, który z klawiatury wczytuje trzy liczby całkowite i zapisuje wprowadzone wartości
+do zmiennych $x$, $y$, $z$ typu `int`. Następnie za pomocą samodzielnie napisanej funkcji zamień wartości
+zmiennych by były posortowane nierosnąco ($x\geqslant y\geqslant z$). Stwórz przypadek testowy dla funkcji.
+
+
+Zad.3. Stwórz strukturę `Telefon` o dwóch polach `marka` (napis) oraz cena (`dowolny typ wymierny`). Następnie stwórz funkcję, której argumentami jest niepusta tablica struktur `Telefon` oraz rozmiar tablicy. Funkcja ma zwrócić najdroższą cenę za telefon z tablicy. Stwórz przypadek testowy.
+
+
+Zad.4. Napisz funkcję, która przyjmuje jako argumenty dwie listy z głową o elementach typu:
+
+```c
+struct node {
+    int a;
+    struct node * next;
+};
+```
+
+Funkcja ma połączyć obie listy (najpierw ma być pierwszy argument, potem drugi) zachowując głowę pierwszej listy. Funkcja ma zwrócić wskaźnik na nową listę. Stwórz przypadek testowy.
+
+Przykład:
+
+Lista1:
+
+* głowa: adres 0000
+* adres 0020, wartość:5
+* adres 0060, wartość:12
+
+Lista2:
+
+* głowa: adres 0110
+* adres 0130, wartość:54
+* adres 0150, wartość:-3
+* adres 0170, wartość:11
+
+Lista po połączeniu:
+
+* głowa: adres 0000
+* adres 0020, wartość:5
+* adres 0060, wartość:12
+* adres 0130, wartość:54
+* adres 0150, wartość:-3
+* adres 0170, wartość:11
