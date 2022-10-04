@@ -70,3 +70,30 @@ def iloczyn(lista):
      print(wynik)
 list = [2,12,1,5,1]
 iloczyn(list)
+#zad 5
+def minmax(lista):
+     return (min(lista), max(lista))
+lista =[31, 28, 31, 30, 31, 30, 31, 31,30, 31, 30, 31]
+print(minmax(lista))
+#zad 6
+def suma(lista):
+     wynik = 1
+     suma = 0
+     for x in lista:
+          suma += wynik*x
+          wynik = -wynik
+     print(suma)
+listaa = [1, 4, 16, 9, 9, 7, 4, 9, 11]
+suma(listaa)
+# # zad 7
+i = 0
+listaBAA = []
+while i < 10:
+     x = input()
+     while x in listaBAA:
+          print("juz jest na liscie")
+          x = input()
+     listaBAA.append(x)
+     i += 1
+print(listaBAA)
+
