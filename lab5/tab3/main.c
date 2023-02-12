@@ -88,10 +88,9 @@ int dlugoscMaksymalnegoCiaguDodatnich(const short tab[], int n)
             dl++;
         else
         {
-            if(dl>maks)
-                maks=dl;
+            if(tab[i]<0)
             dl=0;
         }
     }
-    return maks;
+    return dl;
 }
