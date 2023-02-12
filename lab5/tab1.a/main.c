@@ -53,5 +53,5 @@ int main()
             printf("Zamiana elementow nieparzystych: Tab[%d] = %d\n", i, tab[i]);
 		}
 	}
-Return 0;
+return 0;
 }
