@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1653028702 source:c:\users\local\documents\github\166287_ps\lab10\punkt\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LineSegment.h"
+	"point.h"
+	"Triangle.h"
+
+1653028827 c:\users\local\documents\github\166287_ps\lab10\punkt\linesegment.h
+	"point.h"
+
+1653029172 c:\users\local\documents\github\166287_ps\lab10\punkt\point.h
+
+1653029179 c:\users\local\documents\github\166287_ps\lab10\punkt\triangle.h
+	"point.h"
+
